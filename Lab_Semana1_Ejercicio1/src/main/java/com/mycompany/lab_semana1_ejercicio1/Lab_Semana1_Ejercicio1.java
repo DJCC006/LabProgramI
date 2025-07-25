@@ -16,16 +16,18 @@ public class Lab_Semana1_Ejercicio1 {
         Scanner lea = new Scanner(System.in);
         lea.useDelimiter("\n");
         
-        System.out.println("Porfavor ingrese su primer nombre y su primer apellido: ");
-        nombre=lea.next().toUpperCase();
+        System.out.println("Porfavor ingrese su nombre: ");
+        nombre=lea.next();
         System.out.println("\nPorfavor ingrese el puesto que ocupa: ");
         puesto= lea.next();
         
-        String mensaje= "\nBienvenido "+nombre+", su puesto es "+puesto;
-        int lengthMensaje=mensaje.length();
+        System.out.println("\nBienvenido "+nombre+", su puesto es "+puesto);
         
-        System.out.println(mensaje);
-        System.out.println("El largo de la cadena es: "+lengthMensaje);
+        //Extension
+        System.out.println("\n***EXTENSION***");
+        System.out.println("\nBienvenido "+nombre.toUpperCase()+", su puesto es "+puesto);
+        System.out.println("La longitud del nombre es: "+nombre.length());
+
         
         
         
