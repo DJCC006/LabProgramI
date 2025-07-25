@@ -42,7 +42,7 @@ public class Lab_Semana1_Ejercicio2 {
             System.out.println("\nSu salario total es de: "+total);
         }else{
             total=salarioBase;
-            System.out.println("No se encuentran las condiciones para aplicar el bono");
+            System.out.println("\nSu salario total es de: "+total);
         }
         
                 
